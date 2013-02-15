@@ -51,6 +51,11 @@
     <name>Jahia Web Templates Space</name>
     <packaging>bundle</packaging>
     <description>These are the custom module (jahiaPages) for running on a Jahia server.</description>
+    <scm>
+        <connection>scm:git:git@github.com:Jahia/templates-web-space.git</connection>
+        <url>scm:git:git@github.com:Jahia/templates-web-space.git</url>
+        <developerConnection>scm:git:git@github.com:Jahia/templates-web-space.git</developerConnection>
+    </scm>
     <repositories>
         <repository>
             <id>jahia-public</id>
