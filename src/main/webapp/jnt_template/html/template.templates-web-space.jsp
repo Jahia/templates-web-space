@@ -30,7 +30,7 @@
             </c:otherwise>
         </c:choose>
     </c:forEach>
-    <c:if test="${!empty description}"><meta name="description" content="${description.string}" /></c:if>
+    <c:if test="${!empty description}"><meta name="description" content="<c:out value="${description.string}" />" /></c:if>
     <c:if test="${!empty author}"><meta name="author" content="${author.string}" /></c:if>
     <c:if test="${!empty keywords}"><meta name="keywords" content="${keywords}" /></c:if>
 
