@@ -39,15 +39,7 @@
                                    jcr:primaryType="jnt:area"/>
             </illustration>
                             <teaserZone jcr:primaryType="jnt:contentList">
-                                <area91323 j:allowedTypes="" jcr:primaryType="jnt:area">
-                                    <area91323 jcr:primaryType="jnt:contentList">
-                                        <simple-text jcr:primaryType="jnt:text">
-                                            <j:translation_en jcr:language="en"
-                                                jcr:primaryType="jnt:translation"
-                                                text="fddfsdfsdfs"/>
-                                        </simple-text>
-                                </area91323>
-                                </area91323>
+                                <area91323 j:allowedTypes="" jcr:primaryType="jnt:area"/>
             </teaserZone>
                             <justBeforeFooter-col1 jcr:primaryType="jnt:contentList">
                                 <just-before-footer-area j:allowedTypes="" jcr:primaryType="jnt:area"/>
@@ -523,14 +515,6 @@
             </theme-orange>
           </themes>
         </files>
-                    <qweqwe j:hiddenTemplate="false"
-                    j:view="templates-web-space"
-                    jcr:primaryType="jnt:pageTemplate">
-                        <j:translation_en jcr:language="en"
-                                 jcr:mixinTypes="mix:title"
-                                 jcr:primaryType="jnt:translation"
-                                 jcr:title="qweqwe"/>
-                    </qweqwe>
       </templates>
                 
                 <portlets jcr:primaryType="jnt:portletFolder"/>
