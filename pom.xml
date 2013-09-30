@@ -48,7 +48,7 @@
     </parent>
     <groupId>org.jahia.modules</groupId>
     <artifactId>templates-web-space</artifactId>
-	<version>1.5-SNAPSHOT</version>
+	<version>1.5</version>
     <name>Jahia Web Templates Space</name>
     <packaging>war</packaging>
     <description>These are the custom module (jahiaPages) for running on a Jahia server.</description>
