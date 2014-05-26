@@ -1,6 +1,6 @@
+import org.apache.taglibs.standard.functions.Functions
 import org.jahia.services.content.JCRContentUtils
 import org.jahia.taglibs.jcr.node.JCRTagUtils
-import org.apache.taglibs.standard.functions.Functions
 
 title = currentNode.properties['jcr:title']
 baseline = currentNode.properties['j:baselineNode']
@@ -52,7 +52,7 @@ printMenu = { node, navMenuLevel, omitFormatting ->
             if (menuItem.properties['j:displayInMenu']) {
                 correctType = false
                 menuItem.properties['j:displayInMenu'].each() {
-                    correctType |= it.node == currentNode
+                    correctType |= (it.string == currentNode.name)
                 }
             }
             selected = isSelected? "selected" : "";
