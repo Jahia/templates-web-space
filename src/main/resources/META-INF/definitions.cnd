@@ -8,7 +8,7 @@
 
 
 
-[jmix:acmestyle] > jmix:templateMixin mixin
+[jmix:oldacmestyle] > jmix:templateMixin mixin
  extends = jmix:list
  itemtype = layout
  - j:style (string, choicelist) = 'white' nofulltext < 'white','grey','blue','mushroom','orange','black','red','green','purple','yellow'

@@ -61,7 +61,7 @@
                                    j:channelSelection="apple_ipad_ver1 generic_mobile"
                                    j:skin="skins.acmebox2"
                                    j:style="grey"
-                                   jcr:mixinTypes="jmix:acmestyle jmix:channelSelection jmix:skinnable"
+                                   jcr:mixinTypes="jmix:oldacmestyle jmix:channelSelection jmix:skinnable"
                                    jcr:primaryType="jnt:contentList">
                                     <navMenu j:baselineNode="home"
                                  j:maxDepth="3"
@@ -108,7 +108,7 @@
                              jcr:primaryType="jnt:area"/>
             </row1-col1>
                             <row1-col2 j:skin="skins.acmebox2"
-                             jcr:mixinTypes="jmix:acmestyle jmix:skinnable"
+                             jcr:mixinTypes="jmix:oldacmestyle jmix:skinnable"
                              jcr:primaryType="jnt:contentList">
                                 <side-menu j:baselineNode="home"
                                 j:channelIncludeOrExclude="exclude"
@@ -227,7 +227,7 @@
                                    j:channelSelection="apple_ipad_ver1 generic_mobile"
                                    j:skin="skins.acmebox2"
                                    j:style="white"
-                                   jcr:mixinTypes="jmix:acmestyle jmix:channelSelection jmix:skinnable"
+                                   jcr:mixinTypes="jmix:oldacmestyle jmix:channelSelection jmix:skinnable"
                                    jcr:primaryType="jnt:contentList">
                                     <navMenu j:baselineNode="home"
                                  j:maxDepth="3"
