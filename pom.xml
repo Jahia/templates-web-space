@@ -4,10 +4,10 @@
   <parent>
     <groupId>org.jahia.modules</groupId>
     <artifactId>jahia-modules</artifactId>
-    <version>7.0.0.0</version>
+    <version>8.0.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>templates-web-space</artifactId>
-  <version>2.0.2-SNAPSHOT</version>
+  <version>3.0.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>Jahia Web Templates Space</name>
   <description>These are the custom module (jahiaPages) for running on a Jahia server.</description>
@@ -41,6 +41,7 @@
           <instructions>
             <Jahia-Depends>default,grid,calendar,event,facets,news,search,sitemap,skins,default-skins,blog,rating,profile</Jahia-Depends>
             <Jahia-Module-Type>templatesSet</Jahia-Module-Type>
+            <Jahia-Signature>MCwCFHO2BwWi0QLPZj3nGHtNwd6pob5YAhReROTVQ2X3kfz3pNu6Cq0tMrVnjA==</Jahia-Signature>
           </instructions>
         </configuration>
       </plugin>
