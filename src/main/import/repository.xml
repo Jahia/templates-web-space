@@ -9,7 +9,7 @@
                            jcr:mixinTypes="jmix:sitemap"
                            jcr:primaryType="jnt:module"
                            priority="0.5">
-                
+
                 <templates jcr:primaryType="jnt:templatesFolder">
                     <base j:view="templates-web-space"
                   jcr:mixinTypes="jmix:theme"
@@ -405,7 +405,7 @@
                                               jcr:primaryType="jnt:gotoContribute"/>
                                 <link-to-edit-mode j:requireLoggedUser="false"
                                         j:requirePrivilegedUser="false"
-                                        j:requiredPermissionNames="editModeAccess"
+                                        j:requiredPermissionNames="jContentAccess"
                                         jcr:mixinTypes="jmix:requiredPermissions"
                                         jcr:primaryType="jnt:gotoEdit"/>
             </content-list>
@@ -516,7 +516,7 @@
           </themes>
         </files>
       </templates>
-                
+
                 <portlets jcr:primaryType="jnt:portletFolder"/>
                 <files jcr:primaryType="jnt:folder"/>
                 <contents jcr:primaryType="jnt:contentFolder"/>
