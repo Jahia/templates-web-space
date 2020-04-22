@@ -79,11 +79,6 @@
                                      displayLinkOnCurrentPage="false"
                                      jcr:primaryType="jnt:pageBreadcrumb"/>
                                 <maincontent j:allowedTypes=""
-                                  j:canDeleteInContribution="true"
-                                  j:canOrderInContribution="true"
-                                  j:contributeTypes="jnt:bigText jnt:mainContent"
-                                  j:editableInContribution="true"
-                                  jcr:mixinTypes="jmix:contributeMode"
                                   jcr:primaryType="jnt:area"/>
                                 <maincontent2 j:allowedTypes="" jcr:primaryType="jnt:area"/>
             </content-col1>
@@ -100,11 +95,6 @@
                                  jcr:primaryType="jnt:pageBreadcrumb"/>
                                 <listA jcr:primaryType="jnt:area"/>
                                 <events j:allowedTypes="jnt:event"
-                             j:canDeleteInContribution="true"
-                             j:canOrderInContribution="true"
-                             j:contributeTypes="jnt:event"
-                             j:editableInContribution="true"
-                             jcr:mixinTypes="jmix:contributeMode"
                              jcr:primaryType="jnt:area"/>
             </row1-col1>
                             <row1-col2 j:skin="skins.acmebox2"
@@ -245,11 +235,6 @@
                                      displayLinkOnCurrentPage="false"
                                      jcr:primaryType="jnt:pageBreadcrumb"/>
                                 <maincontent j:allowedTypes="jnt:news"
-                                  j:canDeleteInContribution="true"
-                                  j:canOrderInContribution="true"
-                                  j:contributeTypes="jnt:news"
-                                  j:editableInContribution="true"
-                                  jcr:mixinTypes="jmix:contributeMode"
                                   jcr:primaryType="jnt:area"/>
             </content-col1>
           </news>
@@ -398,11 +383,6 @@
                                 j:skin="skins.custom"
                                 jcr:mixinTypes="jmix:customSkin jmix:skinnable"
                                 jcr:primaryType="jnt:contentList">
-                                <link-to-contribute-mode j:requireLoggedUser="false"
-                                              j:requirePrivilegedUser="false"
-                                              j:requiredPermissionNames="contributeModeAccess"
-                                              jcr:mixinTypes="jmix:requiredPermissions"
-                                              jcr:primaryType="jnt:gotoContribute"/>
                                 <link-to-edit-mode j:requireLoggedUser="false"
                                         j:requirePrivilegedUser="false"
                                         j:requiredPermissionNames="editModeAccess"
